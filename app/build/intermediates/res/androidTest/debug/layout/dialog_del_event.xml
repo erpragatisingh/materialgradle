@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55000000"
+    android:padding="32dp" >
+
+    <LinearLayout
+        android:id="@+id/contentDialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/dialog_background"
+        android:orientation="vertical"
+        android:padding="24dp" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+               android:textSize="18sp"
+            android:text="@string/deleteEvent"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/deleteEventDesc"
+         
+            android:textColor="#000" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <com.ps.materialdesign.views.ButtonFlat
+                android:id="@+id/button_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_red"
+                android:text="@android:string/cancel" />
+
+            <com.ps.materialdesign.views.ButtonFlat
+                android:id="@+id/button_accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_color"
+                android:text="@android:string/yes" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/E:/AndroidMobiles/Git/HTLibrary/MaterialDesignLibGradel/app/src/main/res/layout/dialog_del_event.xml --><!-- From: file:/E:/AndroidMobiles/Git/HTLibrary/MaterialDesignLibGradel/app/build/intermediates/bundles/debug/res/layout/dialog_del_event.xml -->

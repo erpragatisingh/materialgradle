@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">MaterialDesign</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_out_descriptation">Your account will be signed out from device.</string>
+    
+ <string name="notifications">Notifications</string>
+    <string name="notificationsDesc">Notifications will notify you for new event.</string>
+<string name="dataGetlost">Are your sure</string>
+<string name="deleteEvent">Delete Event</string>
+<string name="deleteitem">Delete Wish Item</string>
+<string name="dataGetlostDesc">Discard your changes?</string>
+<string name="deleteEventDesc">Do you want to delete event ?</string>
+<string name="deleteItemDesc">Do you want to delete item ?</string>
+ <string name="blockWishItemHeader">Block Wish Item</string>
+  <string name="blockWishItemMessage">Item will be blocked by you.</string>
+  <string name="preview">Preview</string>
+  <string name="updateEvent">Want to send update to all invitees ?</string>
+  <string name="deleteRSP">Delete Invite</string>
+  <string name="deleteRSPevent">Do you want to delete invite ?</string>
+ 
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/AndroidMobiles/Git/HTLibrary/MaterialDesignLibGradel/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bg_color">#5B9F2C</color>
+    <color name="bg_red">#E04303</color>
+    <color name="green">#00FF00</color>
+    <declare-styleable name="CustomAttributes"><attr format="boolean" name="showNumberIndicator"/><attr format="integer" name="max"/><attr format="integer" name="min"/><attr format="integer" name="value"/><attr format="integer" name="progress"/><attr format="boolean" name="check"/><attr format="integer" name="icon"/><attr format="boolean" name="animate"/></declare-styleable>
+    <!-- From: file:/E:/AndroidMobiles/Git/HTLibrary/MaterialDesignLibGradel/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">MaterialDesign</string>
+    <string name="blockWishItemHeader">Block Wish Item</string>
+    <string name="blockWishItemMessage">Item will be blocked by you.</string>
+    <string name="dataGetlost">Are your sure</string>
+    <string name="dataGetlostDesc">Discard your changes?</string>
+    <string name="deleteEvent">Delete Event</string>
+    <string name="deleteEventDesc">Do you want to delete event ?</string>
+    <string name="deleteItemDesc">Do you want to delete item ?</string>
+    <string name="deleteRSP">Delete Invite</string>
+    <string name="deleteRSPevent">Do you want to delete invite ?</string>
+    <string name="deleteitem">Delete Wish Item</string>
+    <string name="notifications">Notifications</string>
+    <string name="notificationsDesc">Notifications will notify you for new event.</string>
+    <string name="preview">Preview</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_out_descriptation">Your account will be signed out from device.</string>
+    <string name="updateEvent">Want to send update to all invitees ?</string>
+</resources>
